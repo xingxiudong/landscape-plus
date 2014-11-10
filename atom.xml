@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Hexo]]></title>
+  <subtitle><![CDATA[hexo demo site]]></subtitle>
+  <link href="/landscape-plus/atom.xml" rel="self"/>
+  <link href="http://jasonxiang.com/landscape-plus/"/>
+  <updated>2014-11-10T01:28:09.331Z</updated>
+  <id>http://jasonxiang.com/landscape-plus/</id>
+  
+  <author>
+    <name><![CDATA[xiangming]]></name>
+    <email><![CDATA[themes@xiguabaobao.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://jasonxiang.com/landscape-plus/2014/07/18/hello-world/"/>
+    <id>http://jasonxiang.com/landscape-plus/2014/07/18/hello-world/</id>
+    <published>2014-07-18T04:45:01.000Z</published>
+    <updated>2014-08-22T04:45:03.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank" rel="external">GitHub</a>. <code>Current theme</code> is <a href="https://github.com/xiangming/landscape-plus" target="_blank" rel="external">landscape-plus</a>, maintain by <a href="https://github.com/xiangming" target="_blank" rel="external">@xiangming</a></p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Blockquote">Blockquote</h3>
+<blockquote>
+<p>This is a blockquote</p>
+</blockquote>
+<h3 id="google-code-prettify">google-code-prettify</h3>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span>google-code-prettify demo<span class="tag">&lt;/<span class="title">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"prettify.css"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></div><div class="line">    </div><div class="line">    <span class="tag">&lt;<span class="title">pre</span>&gt;</span></div><div class="line">        <span class="comment">&lt;!-- html/css/js --&gt;</span></div><div class="line">        html/css/js</div><div class="line">    <span class="tag">&lt;/<span class="title">pre</span>&gt;</span></div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"jquery-1.9.1.min.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"prettify.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"run-prettify.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></div></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Search</span></div><div class="line">  <span class="keyword">var</span> $searchWrap = $(<span class="string">'#search-form-wrap'</span>),</div><div class="line">    isSearchAnim = <span class="literal">false</span>,</div><div class="line">    searchAnimDuration = <span class="number">200</span>;</div><div class="line"></div><div class="line">  <span class="keyword">var</span> startSearchAnim = <span class="function"><span class="keyword">function</span><span class="params">()</span></span>{</div><div class="line">    isSearchAnim = <span class="literal">true</span>;</div><div class="line">  };</div><div class="line"></div><div class="line">  <span class="keyword">var</span> stopSearchAnim = <span class="function"><span class="keyword">function</span><span class="params">(callback)</span></span>{</div><div class="line">    setTimeout(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>{</div><div class="line">      isSearchAnim = <span class="literal">false</span>;</div><div class="line">      callback && callback();</div><div class="line">    }, searchAnimDuration);</div><div class="line">  };</div></pre></td></tr></table></figure>
+
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://jasonxiang.com/landscape-plus/tags/hexo/"/>
+    
+      <category term="hexo" scheme="http://jasonxiang.com/landscape-plus/categories/hexo/"/>
+    
+  </entry>
+  
+</feed>
