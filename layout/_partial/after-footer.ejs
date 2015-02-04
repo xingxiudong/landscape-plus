@@ -46,6 +46,20 @@ var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
 <% } %>
 <!-- 百度分享 end -->
 
+<!-- 百度统计 Start -->
+<% if (theme.baidu_tongji){ %>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?<%= theme.baidu_tongji_id %>";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<% } %>
+<!-- 百度统计 End -->
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <% if (theme.fancybox){ %>

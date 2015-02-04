@@ -9,3 +9,6 @@ public/
 _SYNCAPP
 metadata.xml
 /.idea
+/_config.yml
+/.project
+/.gitignore

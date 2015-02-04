@@ -2,6 +2,13 @@
 
 针对中国大陆地区对hexo官方主题landscape进行优化。
 
+
+## Improved by me
+
++ 新增了百度统计功能
++ 改进了搜索框，新增支持google、bing搜索
+
+
 ## 所有新特性
 
 + 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。=> [参与国内cdn的讨论](https://github.com/xiangming/landscape-plus/issues/3)

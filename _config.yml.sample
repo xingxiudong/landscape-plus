@@ -21,15 +21,8 @@ widgets:
 - links
 
 # Links
-links:
-  作者前博客: http://blog.csdn.net/xxd851116
-  平凡的世界: http://www.ccvita.com/
-  阮一峰的网络日志: http://www.ruanyifeng.com/blog/
-  Tim Yang: http://timyang.net/
-  萨内蒂的小跟班: https://imsizon.com/
-  金步国作品列表: http://www.fanli7.net/my/api/apache_jinbuguo/jinbuguo_florilegium.html
-  阿里中间件团队博客: http://jm.taobao.org/
-  KimSoft: http://blog.csdn.net/kimsoft
+links::
+  笑的自然: http://xingxiudong.com
 
 # Miscellaneous
 google_analytics:
@@ -40,7 +33,7 @@ fb_admins:
 fb_app_id:
 
 # Duoshuo
-duoshuo_shortname: xingxiudong
+duoshuo_shortname: 
 
 # Baidu share
 baidushare: true
@@ -48,7 +41,7 @@ baidushare: true
 # Baidu tongji
 # Step: Open http://tongji.baidu.com/ -> login -> 网站中心 -> 获取代码
 baidu_tongji: true
-baidu_tongji_id: 54f0811619534f1ad75482a915f7fde0
+baidu_tongji_id: 
 
 # Search box: google/baidu/bing
 search: bing
